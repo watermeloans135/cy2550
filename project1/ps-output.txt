@@ -1,0 +1,188 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 04:06 ?        00:00:00 /sbin/init splash
+root           2       0  0 04:06 ?        00:00:00 [kthreadd]
+root           3       2  0 04:06 ?        00:00:00 [rcu_gp]
+root           4       2  0 04:06 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 04:06 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           7       2  0 04:06 ?        00:00:00 [kworker/0:1-events]
+root           8       2  0 04:06 ?        00:00:00 [kworker/u2:0-ext4-rsv-conversion]
+root           9       2  0 04:06 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 04:06 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 04:06 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 04:06 ?        00:00:00 [ksoftirqd/0]
+root          13       2  0 04:06 ?        00:00:00 [rcu_sched]
+root          14       2  0 04:06 ?        00:00:00 [migration/0]
+root          15       2  0 04:06 ?        00:00:00 [idle_inject/0]
+root          16       2  0 04:06 ?        00:00:00 [cpuhp/0]
+root          17       2  0 04:06 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 04:06 ?        00:00:00 [netns]
+root          19       2  0 04:06 ?        00:00:00 [inet_frag_wq]
+root          20       2  0 04:06 ?        00:00:00 [kauditd]
+root          21       2  0 04:06 ?        00:00:00 [khungtaskd]
+root          22       2  0 04:06 ?        00:00:00 [oom_reaper]
+root          23       2  0 04:06 ?        00:00:00 [writeback]
+root          24       2  0 04:06 ?        00:00:00 [kcompactd0]
+root          25       2  0 04:06 ?        00:00:00 [ksmd]
+root          26       2  0 04:06 ?        00:00:00 [khugepaged]
+root          72       2  0 04:06 ?        00:00:00 [kintegrityd]
+root          73       2  0 04:06 ?        00:00:00 [kblockd]
+root          74       2  0 04:06 ?        00:00:00 [blkcg_punt_bio]
+root          75       2  0 04:06 ?        00:00:00 [tpm_dev_wq]
+root          76       2  0 04:06 ?        00:00:00 [ata_sff]
+root          77       2  0 04:06 ?        00:00:00 [md]
+root          78       2  0 04:06 ?        00:00:00 [edac-poller]
+root          79       2  0 04:06 ?        00:00:00 [devfreq_wq]
+root          80       2  0 04:06 ?        00:00:00 [watchdogd]
+root          81       2  0 04:06 ?        00:00:00 [kworker/u2:1-ext4-rsv-conversion]
+root          82       2  0 04:06 ?        00:00:00 [kworker/0:1H-kblockd]
+root          84       2  0 04:06 ?        00:00:00 [kswapd0]
+root          85       2  0 04:06 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 04:06 ?        00:00:00 [kthrotld]
+root          88       2  0 04:06 ?        00:00:00 [acpi_thermal_pm]
+root          89       2  0 04:06 ?        00:00:00 [kworker/u2:2-events_unbound]
+root          90       2  0 04:06 ?        00:00:00 [scsi_eh_0]
+root          91       2  0 04:06 ?        00:00:00 [scsi_tmf_0]
+root          92       2  0 04:06 ?        00:00:00 [scsi_eh_1]
+root          93       2  0 04:06 ?        00:00:00 [scsi_tmf_1]
+root          95       2  0 04:06 ?        00:00:00 [vfio-irqfd-clea]
+root          96       2  0 04:06 ?        00:00:00 [mld]
+root          97       2  0 04:06 ?        00:00:00 [ipv6_addrconf]
+root         106       2  0 04:06 ?        00:00:00 [kstrp]
+root         109       2  0 04:06 ?        00:00:00 [zswap-shrink]
+root         110       2  0 04:06 ?        00:00:00 [kworker/u3:0]
+root         115       2  0 04:06 ?        00:00:00 [charger_manager]
+root         116       2  0 04:06 ?        00:00:00 [kworker/0:2-inet_frag_wq]
+root         155       2  0 04:06 ?        00:00:00 [scsi_eh_2]
+root         157       2  0 04:06 ?        00:00:00 [scsi_tmf_2]
+root         179       2  0 04:06 ?        00:00:00 [jbd2/sda5-8]
+root         180       2  0 04:06 ?        00:00:00 [ext4-rsv-conver]
+root         220       1  0 04:06 ?        00:00:00 /lib/systemd/systemd-journald
+root         243       2  0 04:06 ?        00:00:00 [ttm_swap]
+root         244       2  0 04:06 ?        00:00:00 [irq/18-vmwgfx]
+root         245       2  0 04:06 ?        00:00:00 [card0-crtc0]
+root         246       2  0 04:06 ?        00:00:00 [card0-crtc1]
+root         247       2  0 04:06 ?        00:00:00 [card0-crtc2]
+root         248       2  0 04:06 ?        00:00:00 [card0-crtc3]
+root         249       2  0 04:06 ?        00:00:00 [card0-crtc4]
+root         250       2  0 04:06 ?        00:00:00 [card0-crtc5]
+root         251       2  0 04:06 ?        00:00:00 [card0-crtc6]
+root         252       2  0 04:06 ?        00:00:00 [card0-crtc7]
+root         260       2  0 04:06 ?        00:00:00 [loop0]
+root         261       2  0 04:06 ?        00:00:00 [loop1]
+root         263       2  0 04:06 ?        00:00:00 [loop2]
+root         264       2  0 04:06 ?        00:00:00 [loop3]
+root         266       1  0 04:06 ?        00:00:00 /lib/systemd/systemd-udevd
+root         267       2  0 04:06 ?        00:00:00 [loop4]
+root         310       2  0 04:06 ?        00:00:00 [cryptd]
+systemd+     498       1  0 04:06 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     499       1  0 04:06 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         534       1  0 04:06 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root         535       1  0 04:06 ?        00:00:00 /usr/sbin/acpid
+root         536       1  0 04:06 ?        00:00:00 /usr/sbin/anacron -d -q -s
+avahi        538       1  0 04:06 ?        00:00:00 avahi-daemon: running [ewang7421-VirtualBox.local]
+root         539       1  0 04:06 ?        00:00:00 /usr/sbin/cron -f
+root         540       1  0 04:06 ?        00:00:00 /usr/sbin/cupsd -l
+message+     541       1  0 04:06 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         542       1  0 04:06 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         549       1  0 04:06 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         554       1  0 04:06 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+syslog       558       1  0 04:06 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         566       1  0 04:06 ?        00:00:01 /usr/lib/snapd/snapd
+root         567       1  0 04:06 ?        00:00:00 /usr/libexec/switcheroo-control
+root         568       1  0 04:06 ?        00:00:00 /lib/systemd/systemd-logind
+root         570       1  0 04:06 ?        00:00:00 /usr/lib/udisks2/udisksd
+root         571       1  0 04:06 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        573     538  0 04:06 ?        00:00:00 avahi-daemon: chroot helper
+root         632       1  0 04:06 ?        00:00:00 /usr/sbin/cups-browsed
+root         641       1  0 04:06 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root         648       1  0 04:06 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         673       1  0 04:06 ?        00:00:00 /usr/sbin/gdm3
+root         691     673  0 04:06 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+whoopsie     702       1  0 04:06 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops     710       1  0 04:06 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     712       1  0 04:06 ?        00:00:00 /usr/sbin/kerneloops
+ewang74+     766       1  0 04:06 ?        00:00:00 /lib/systemd/systemd --user
+ewang74+     768     766  0 04:06 ?        00:00:00 (sd-pam)
+ewang74+     787     766  0 04:06 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ewang74+     792     766  0 04:06 ?        00:00:00 /usr/libexec/tracker-miner-fs
+ewang74+     800       1  0 04:06 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ewang74+     804     691  0 04:06 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ewang74+     807     804  1 04:06 tty2     00:00:13 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+rtkit        809       1  0 04:06 ?        00:00:00 /usr/libexec/rtkit-daemon
+ewang74+     813     766  0 04:06 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ewang74+     817     766  0 04:06 ?        00:00:00 /usr/libexec/gvfsd
+ewang74+     822     766  0 04:06 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ewang74+     825     766  0 04:06 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ewang74+     832     766  0 04:06 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ewang74+     843     766  0 04:06 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ewang74+     847     766  0 04:06 ?        00:00:00 /usr/libexec/goa-daemon
+ewang74+     885     766  0 04:06 ?        00:00:00 /usr/libexec/goa-identity-service
+ewang74+     887     766  0 04:06 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+ewang74+     900     766  0 04:06 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root         905       1  0 04:06 ?        00:00:00 /usr/lib/upower/upowerd
+ewang74+     927     804  0 04:06 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+ewang74+    1021     927  0 04:06 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+ewang74+    1046     766  0 04:06 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+ewang74+    1052    1046  0 04:06 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ewang74+    1068     766  0 04:06 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ewang74+    1085     766  0 04:06 ?        00:00:00 /usr/libexec/dconf-service
+ewang74+    1089     766  0 04:06 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ewang74+    1103     766  5 04:06 ?        00:00:45 /usr/bin/gnome-shell
+ewang74+    1126    1103  0 04:07 ?        00:00:00 ibus-daemon --panel disable --xim
+ewang74+    1132    1126  0 04:07 ?        00:00:00 /usr/libexec/ibus-memconf
+ewang74+    1133    1126  0 04:07 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+ewang74+    1135     766  0 04:07 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+ewang74+    1138     766  0 04:07 ?        00:00:00 /usr/libexec/ibus-portal
+ewang74+    1149     766  0 04:07 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ewang74+    1152     766  0 04:07 ?        00:00:00 /usr/libexec/xdg-permission-store
+ewang74+    1157     766  0 04:07 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ewang74+    1166     766  0 04:07 ?        00:00:00 /usr/libexec/evolution-source-registry
+ewang74+    1177     766  0 04:07 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ewang74+    1193     766  0 04:07 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ewang74+    1214     766  0 04:07 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ewang74+    1220     817  0 04:07 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+ewang74+    1234     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ewang74+    1235     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-color
+ewang74+    1236     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-datetime
+ewang74+    1237     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-housekeeping
+ewang74+    1239     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-keyboard
+ewang74+    1240     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-media-keys
+ewang74+    1242     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-power
+ewang74+    1245     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ewang74+    1246     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-rfkill
+ewang74+    1247     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ewang74+    1254     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-sharing
+ewang74+    1259     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-smartcard
+ewang74+    1261     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-sound
+ewang74+    1264     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-usb-protection
+ewang74+    1265     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-wacom
+ewang74+    1270     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-wwan
+ewang74+    1272     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-xsettings
+ewang74+    1274    1089  0 04:07 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ewang74+    1306    1089  0 04:07 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+ewang74+    1329     766  0 04:07 ?        00:00:00 /usr/libexec/gsd-printer
+colord      1334       1  0 04:07 ?        00:00:00 /usr/libexec/colord
+ewang74+    1403    1126  0 04:07 ?        00:00:00 /usr/libexec/ibus-engine-simple
+ewang74+    1471     766  0 04:07 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ewang74+    1521    1089  0 04:08 ?        00:00:00 update-notifier
+ewang74+    1777     766  0 04:10 ?        00:00:02 /usr/libexec/gnome-terminal-server
+ewang74+    1784    1777  0 04:10 pts/0    00:00:00 bash
+ewang74+    3668     766  7 04:14 ?        00:00:27 /usr/lib/firefox/firefox -new-window
+ewang74+    3768    3668  0 04:14 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3668 true tab
+ewang74+    3795    3668  0 04:14 ?        00:00:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 82 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3668 true tab
+ewang74+    3862    3668  0 04:14 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 1659 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3668 true tab
+ewang74+    3891    3668  0 04:14 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 8134 -prefMapSize 230514 -jsInit 285716 -parentBuildID 20210804193234 -appdir /usr/lib/firefox/browser 3668 true tab
+ewang74+    3931     766  0 04:14 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+ewang74+    3932     766  0 04:14 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+ewang74+    4007     817  0 04:15 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.4 /org/gtk/gvfs/exec_spaw/1
+ewang74+    4022     817  0 04:15 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.4 /org/gtk/gvfs/exec_spaw/3
+ewang74+    4033    1103  0 04:15 ?        00:00:00 /usr/lib/libreoffice/program/oosplash --writer
+ewang74+    4067    4033  0 04:15 ?        00:00:02 /usr/lib/libreoffice/program/soffice.bin --writer
+root        4094       2  0 04:15 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root        4117       1  0 04:16 ?        00:00:00 /bin/sh /etc/cron.weekly/update-notifier-common
+root        4119    4117  0 04:16 ?        00:00:00 sleep 3360
+ewang74+    4149    3668  0 04:17 ?        00:00:00 /usr/lib/firefox/firefox -contentproc -parentBuildID 20210804193234 -prefsLen 13814 -prefMapSize 230514 -appdir /usr/lib/firefox/browser 3668 true socket
+root        4180       2  0 04:17 ?        00:00:00 [kworker/u2:3-events_power_efficient]
+ewang74+    4193     766  2 04:18 ?        00:00:02 /usr/bin/nautilus --gapplication-service
+ewang74+    4445     766  3 04:20 ?        00:00:01 /usr/bin/gedit --gapplication-service
+ewang74+    4471    1784  0 04:20 pts/0    00:00:00 ps -ef
