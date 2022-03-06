@@ -49,7 +49,7 @@ def gen_xkcd_capitalize(start_list, num_capitalized):
 def gen_xkcd_insert_symbols(start_list, num_inserted):
     to_be_inserted = []
 
-    for i in range(num_inserted):
+    for i in range(num_inserted + 1):
         to_be_inserted.append(random.randint(0, len(start_list)))
     to_be_inserted.sort()
     for i in range(len(to_be_inserted) -1, 0, -1):
@@ -59,7 +59,7 @@ def gen_xkcd_insert_symbols(start_list, num_inserted):
 def gen_xkcd_insert_numbers(start_list, num_inserted):
     to_be_inserted = []
 
-    for i in range(num_inserted):
+    for i in range(num_inserted + 1):
         to_be_inserted.append(random.randint(0, len(start_list)))
     to_be_inserted.sort()
     for i in range(len(to_be_inserted) - 1, 0, -1):
@@ -89,4 +89,4 @@ if __name__ == '__main__':
 
 
 
-
+print(gen_xkcd_insert_numbers(gen_xkcd_default(), 2))
