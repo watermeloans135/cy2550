@@ -1,0 +1,30 @@
+# Last Modified: Mon Apr  4 14:21:06 2022
+#include <tunables/global>
+
+/home/eric/cy2550/project6/p2 {
+  #include <abstractions/user-tmp>
+  
+  /{usr/,}lib{,32,64}/**                r,
+  /{usr/,}lib{,32,64}/**.so*       mr,
+  /{usr/,}lib/@{multiarch}/**            r,
+  /{usr/,}lib/@{multiarch}/**.so*   mr,
+  /{usr/,}lib/tls/i686/{cmov,nosegneg}/*.so*    mr,
+  /{usr/,}lib/i386-linux-gnu/tls/i686/{cmov,nosegneg}/*.so*    mr,
+  @{PROC}/filesystems            r,
+  @{PROC}/cpuinfo          r,
+
+
+
+  network inet,
+
+  /etc/hostid r,
+  /etc/hosts r,
+  /etc/passwd r,
+  /etc/timezone r,
+  /home/eric/cy2550/project6/p2 mr,
+  /proc/uptime r,
+  /var/log/syslog r,
+  owner /home/eric/.project2/config w,
+  owner /home/eric/cy2550/project6/template r,
+
+}
